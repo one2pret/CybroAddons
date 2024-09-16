@@ -6,10 +6,7 @@
 #    Author: Fasluca(<faslu@cybrosys.in>)
 #    you can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
-#
-#    It is forbidden to publish, distribute, sublicense, or sell copies
-#    of the Software or modified copies of the Software.
-#
+
 #    This program is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -23,7 +20,7 @@
 import time
 import logging
 
-from odoo import api, models
+from odoo import api, models, _
 from odoo.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
